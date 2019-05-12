@@ -4,6 +4,7 @@
  * appearance
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
+ * if XResources-patch is applied, this font is overwritten by XResources!
  */
 static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
