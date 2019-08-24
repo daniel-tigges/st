@@ -7,6 +7,13 @@
  * if XResources-patch is applied, this font is overwritten by XResources!
  */
 static char *font = "mono:pixelsize=16:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Font Awesome 5 Free Regular:pixelsize=12:antialias=true:autohint=true"
+/*	"Inconsolata for Powerline:pixelsize=12:antialias=true:autohint=true", */
+/*	"Hack Nerd Font Mono:pixelsize=11:antialias=true:autohint=true", */
+};
+
 static int borderpx = 2;
 
 /*
@@ -84,7 +91,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.85;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
